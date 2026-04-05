@@ -28,7 +28,28 @@ from video_script.core import (
 # Page config
 # ---------------------------------------------------------------------------
 
-st.set_page_config(page_title="🎬 Video Script Writer", page_icon="🎬", layout="wide")
+# Custom CSS for professional dark theme
+st.set_page_config(page_title="Video Script Writer", page_icon="🎯", layout="wide")
+
+st.markdown("""
+<style>
+    .main { background-color: #0e1117; }
+    .stApp { background: linear-gradient(180deg, #0e1117 0%, #1a1a2e 100%); }
+    h1 { background: linear-gradient(90deg, #667eea 0%, #764ba2 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 2.5rem !important; }
+    h2 { color: #667eea !important; }
+    h3 { color: #a78bfa !important; }
+    .stButton>button { background: linear-gradient(90deg, #667eea 0%, #764ba2 100%); color: white; border: none; border-radius: 8px; padding: 0.5rem 2rem; font-weight: 600; transition: transform 0.2s; }
+    .stButton>button:hover { transform: translateY(-2px); box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4); }
+    .stTextInput>div>div>input, .stTextArea>div>div>textarea { background-color: #1a1a2e; border: 1px solid #333; color: #e0e0e0; border-radius: 8px; }
+    .stSelectbox>div>div { background-color: #1a1a2e; border: 1px solid #333; }
+    .stMetric { background: linear-gradient(135deg, #1a1a2e, #16213e); padding: 1rem; border-radius: 10px; border: 1px solid #333; }
+    .css-1d391kg { background-color: #1a1a2e; }
+    div[data-testid="stSidebar"] { background: linear-gradient(180deg, #1a1a2e 0%, #16213e 100%); }
+    .stSuccess { background-color: rgba(102, 126, 234, 0.1); border: 1px solid #667eea; }
+    footer { visibility: hidden; }
+    .block-container { padding-top: 2rem; }
+</style>
+""", unsafe_allow_html=True)
 
 
 def main():
