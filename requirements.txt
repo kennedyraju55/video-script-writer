@@ -1,0 +1,7 @@
+requests>=2.31.0    # HTTP client for Ollama
+rich>=13.0.0        # Rich formatting and UI
+click>=8.1.0        # CLI framework
+pyyaml>=6.0         # Configuration loading
+streamlit>=1.28.0   # Web UI
+pytest>=7.0.0       # Testing framework
+pytest-cov>=4.0.0   # Test coverage

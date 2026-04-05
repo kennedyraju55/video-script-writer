@@ -1,0 +1,15 @@
+app:
+  name: "Video Script Writer"
+  version: "2.0.0"
+llm:
+  model: "llama3"
+  temperature: 0.7
+  max_tokens: 4096
+video:
+  default_style: "educational"
+  default_duration: 10
+  max_duration: 60
+  words_per_minute: 150
+  styles: ["educational", "entertainment", "tutorial", "review", "vlog", "documentary"]
+logging:
+  level: "INFO"
