@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="350" viewBox="0 0 800 350">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="50%" style="stop-color:#16213e"/>
+      <stop offset="100%" style="stop-color:#0f3460"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#2a2a4a"/>
+      <stop offset="100%" style="stop-color:#1e1e3a"/>
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="350" fill="url(#bg)" rx="12"/>
+
+  <!-- Title -->
+  <text x="400" y="32" text-anchor="middle" fill="#7209b7" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="bold">KEY FEATURES</text>
+
+  <!-- Card 1: 6 Video Styles -->
+  <rect x="25" y="52" width="240" height="120" rx="8" fill="url(#cardGrad)" stroke="#7209b7" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="145" y="76" text-anchor="middle" fill="#7209b7" font-family="Segoe UI,Arial,sans-serif" font-size="22">🎨</text>
+  <text x="145" y="96" text-anchor="middle" fill="#e0e0f0" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="bold">6 Video Styles</text>
+  <text x="145" y="114" text-anchor="middle" fill="#a0a0c0" font-family="Segoe UI,Arial,sans-serif" font-size="9">Educational · Entertainment</text>
+  <text x="145" y="128" text-anchor="middle" fill="#a0a0c0" font-family="Segoe UI,Arial,sans-serif" font-size="9">Tutorial · Review</text>
+  <text x="145" y="142" text-anchor="middle" fill="#a0a0c0" font-family="Segoe UI,Arial,sans-serif" font-size="9">Vlog · Documentary</text>
+  <line x1="60" y1="155" x2="230" y2="155" stroke="#7209b7" stroke-width="2" stroke-opacity="0.4"/>
+
+  <!-- Card 2: Scene Breakdown -->
+  <rect x="280" y="52" width="240" height="120" rx="8" fill="url(#cardGrad)" stroke="#7209b7" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="400" y="76" text-anchor="middle" fill="#7209b7" font-family="Segoe UI,Arial,sans-serif" font-size="22">📋</text>
+  <text x="400" y="96" text-anchor="middle" fill="#e0e0f0" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="bold">Scene Breakdown</text>
+  <text x="400" y="114" text-anchor="middle" fill="#a0a0c0" font-family="Segoe UI,Arial,sans-serif" font-size="9">Structured sections with</text>
+  <text x="400" y="128" text-anchor="middle" fill="#a0a0c0" font-family="Segoe UI,Arial,sans-serif" font-size="9">timestamps and B-roll</text>
+  <text x="400" y="142" text-anchor="middle" fill="#a0a0c0" font-family="Segoe UI,Arial,sans-serif" font-size="9">suggestions per scene</text>
+  <line x1="315" y1="155" x2="485" y2="155" stroke="#7209b7" stroke-width="2" stroke-opacity="0.4"/>
+
+  <!-- Card 3: Hook Generator -->
+  <rect x="535" y="52" width="240" height="120" rx="8" fill="url(#cardGrad)" stroke="#7209b7" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="655" y="76" text-anchor="middle" fill="#7209b7" font-family="Segoe UI,Arial,sans-serif" font-size="22">🎣</text>
+  <text x="655" y="96" text-anchor="middle" fill="#e0e0f0" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="bold">Hook Generator</text>
+  <text x="655" y="114" text-anchor="middle" fill="#a0a0c0" font-family="Segoe UI,Arial,sans-serif" font-size="9">Multiple attention-grabbing</text>
+  <text x="655" y="128" text-anchor="middle" fill="#a0a0c0" font-family="Segoe UI,Arial,sans-serif" font-size="9">opening options to</text>
+  <text x="655" y="142" text-anchor="middle" fill="#a0a0c0" font-family="Segoe UI,Arial,sans-serif" font-size="9">captivate your audience</text>
+  <line x1="570" y1="155" x2="740" y2="155" stroke="#7209b7" stroke-width="2" stroke-opacity="0.4"/>
+
+  <!-- Card 4: Thumbnail Ideas -->
+  <rect x="25" y="192" width="240" height="120" rx="8" fill="url(#cardGrad)" stroke="#7209b7" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="145" y="216" text-anchor="middle" fill="#7209b7" font-family="Segoe UI,Arial,sans-serif" font-size="22">🖼️</text>
+  <text x="145" y="236" text-anchor="middle" fill="#e0e0f0" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="bold">Thumbnail Ideas</text>
+  <text x="145" y="254" text-anchor="middle" fill="#a0a0c0" font-family="Segoe UI,Arial,sans-serif" font-size="9">Visual concepts with text</text>
+  <text x="145" y="268" text-anchor="middle" fill="#a0a0c0" font-family="Segoe UI,Arial,sans-serif" font-size="9">overlays, expressions, and</text>
+  <text x="145" y="282" text-anchor="middle" fill="#a0a0c0" font-family="Segoe UI,Arial,sans-serif" font-size="9">composition descriptions</text>
+  <line x1="60" y1="295" x2="230" y2="295" stroke="#7209b7" stroke-width="2" stroke-opacity="0.4"/>
+
+  <!-- Card 5: Teleprompter Mode -->
+  <rect x="280" y="192" width="240" height="120" rx="8" fill="url(#cardGrad)" stroke="#7209b7" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="400" y="216" text-anchor="middle" fill="#7209b7" font-family="Segoe UI,Arial,sans-serif" font-size="22">📖</text>
+  <text x="400" y="236" text-anchor="middle" fill="#e0e0f0" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="bold">Teleprompter Mode</text>
+  <text x="400" y="254" text-anchor="middle" fill="#a0a0c0" font-family="Segoe UI,Arial,sans-serif" font-size="9">Clean script text without</text>
+  <text x="400" y="268" text-anchor="middle" fill="#a0a0c0" font-family="Segoe UI,Arial,sans-serif" font-size="9">production notes or B-roll</text>
+  <text x="400" y="282" text-anchor="middle" fill="#a0a0c0" font-family="Segoe UI,Arial,sans-serif" font-size="9">Ready for recording</text>
+  <line x1="315" y1="295" x2="485" y2="295" stroke="#7209b7" stroke-width="2" stroke-opacity="0.4"/>
+
+  <!-- Card 6: Duration Estimation -->
+  <rect x="535" y="192" width="240" height="120" rx="8" fill="url(#cardGrad)" stroke="#7209b7" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="655" y="216" text-anchor="middle" fill="#7209b7" font-family="Segoe UI,Arial,sans-serif" font-size="22">⏱️</text>
+  <text x="655" y="236" text-anchor="middle" fill="#e0e0f0" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="bold">Duration Estimation</text>
+  <text x="655" y="254" text-anchor="middle" fill="#a0a0c0" font-family="Segoe UI,Arial,sans-serif" font-size="9">Word-count-based speaking</text>
+  <text x="655" y="268" text-anchor="middle" fill="#a0a0c0" font-family="Segoe UI,Arial,sans-serif" font-size="9">time calculation at</text>
+  <text x="655" y="282" text-anchor="middle" fill="#a0a0c0" font-family="Segoe UI,Arial,sans-serif" font-size="9">150 words per minute</text>
+  <line x1="570" y1="295" x2="740" y2="295" stroke="#7209b7" stroke-width="2" stroke-opacity="0.4"/>
+
+  <!-- Footer accent line -->
+  <rect x="200" y="330" width="400" height="3" rx="2" fill="#7209b7" opacity="0.5"/>
+</svg>
